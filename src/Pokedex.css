@@ -7,3 +7,7 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.Pokemon-winner {
+    color: green;
+}
