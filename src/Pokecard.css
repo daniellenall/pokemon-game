@@ -1,8 +1,84 @@
 .Pokecard {
-    border: 1px solid royalblue;
+    border: 15px solid cornflowerblue;
     border-radius: 5px;
     box-shadow: 0px 5px 15px lightgrey;
     background-color: lightskyblue;
-    width: 250px;
-    height: 350px;
+    width: 150px;
+    height: 250px;
+    padding: 15px;
+
+}
+
+.Pokecard-header {
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+.Pokecard-img {
+    border: 2px solid cornflowerblue;
+    background-color: white;
+    width: 95%;
+    margin:0;
+}
+
+
+.normal {
+    background-color: beige;
+    color: burlywood;
+    padding: 2px;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+.fire {
+    background-color: orangered;
+    color: white;
+    padding: 2px;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+.bug {
+    background-color: orangered;
+    color: white;
+    padding: 2px;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+.poison {
+    background-color: purple;
+    color: white;
+    padding: 2px;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+.water {
+    background-color: steelblue;
+    color: white;
+    padding: 2px;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+.grass {
+    background-color: yellowgreen;
+    color: white;
+    padding: 2px;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 300;
+    border-radius: 2px;
 }

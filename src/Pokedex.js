@@ -14,9 +14,9 @@ class Pokedex extends Component{
     render() {
         let title;
         if (this.props.isWinner) {
-            title = <h1 className="Pokemon-winner">Winning Hand</h1>;
+            title = <h2 className="Pokemon-winner">Winning Hand</h2>;
         } else {
-            title = <h1 className="Pokemon-loser">Losing Hand</h1>;
+            title = <h2 className="Pokemon-loser">Losing Hand</h2>;
         }
 
         return (

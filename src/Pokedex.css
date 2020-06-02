@@ -1,3 +1,8 @@
+.Pokedex {
+    display: inline-block;
+    width: 50%;
+}
+
 .Pokedex-cards {
     display: flex;
     justify-content: space-evenly;
